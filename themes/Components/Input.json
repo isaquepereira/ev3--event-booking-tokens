@@ -7,6 +7,10 @@
     "value": "{root.white}",
     "type": "color"
   },
+  "input-static-placeholder": {
+    "value": "{gray.300}",
+    "type": "color"
+  },
   "input-static-border": {
     "value": {
       "width": "{hairline}",
@@ -39,6 +43,10 @@
     },
     "type": "border"
   },
+  "input-hover-placeholder": {
+    "value": "{gray.500}",
+    "type": "color"
+  },
   "input-filled-border": {
     "value": {
       "width": "{hairline}",
@@ -47,16 +55,12 @@
     },
     "type": "border"
   },
-  "input-static-content": {
+  "input-active-placeholder": {
     "value": "{gray.300}",
     "type": "color"
   },
   "input-filled-content": {
     "value": "{root.black}",
-    "type": "color"
-  },
-  "input-hover-content": {
-    "value": "{gray.500}",
     "type": "color"
   },
   "input-hover-bg": {
@@ -161,5 +165,23 @@
       "opacity": "{opacity-glass}"
     },
     "type": "composition"
+  },
+  "input-text": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{fs-base}",
+      "lineHeight": "{minimal}"
+    },
+    "type": "typography"
+  },
+  "input-addon-text": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{fs-nano}",
+      "lineHeight": "{minimal}"
+    },
+    "type": "typography"
   }
 }
