@@ -1,0 +1,14 @@
+{
+  "surface-lvl-0": {
+    "value": "{root.white}",
+    "type": "color"
+  },
+  "surface-lvl-01": {
+    "value": "{gray.100}",
+    "type": "color"
+  },
+  "surface-lvl-02": {
+    "value": "{gray.200}",
+    "type": "color"
+  }
+}

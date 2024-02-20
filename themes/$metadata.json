@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "Core",
+    "Core/Semantic",
     "Components/Buttons"
   ]
 }
