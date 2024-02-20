@@ -1,0 +1,26 @@
+{
+  "txt-default-color": {
+    "value": "{root.black}",
+    "type": "color"
+  },
+  "txt-error-color": {
+    "value": "{strawberry.600}",
+    "type": "color"
+  },
+  "txt-success-color": {
+    "value": "{emerald.600}",
+    "type": "color"
+  },
+  "txt-paragraph-color": {
+    "value": "{gray.600}",
+    "type": "color"
+  },
+  "txt-titles-color": {
+    "value": "{root.black}",
+    "type": "color"
+  },
+  "txt-sub-titles-color": {
+    "value": "{gray.600}",
+    "type": "color"
+  }
+}

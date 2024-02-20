@@ -1530,5 +1530,29 @@
       "value": "#ffffff",
       "type": "color"
     }
+  },
+  "opacity-semi-transparent": {
+    "value": "0.08",
+    "type": "opacity"
+  },
+  "opacity-glass": {
+    "value": "0.16",
+    "type": "opacity"
+  },
+  "opacity-silk": {
+    "value": "0.24",
+    "type": "opacity"
+  },
+  "opacity-medium": {
+    "value": "0.40",
+    "type": "opacity"
+  },
+  "opacity-frostred-glass": {
+    "value": "0.64",
+    "type": "opacity"
+  },
+  "opacity-semi-opaque": {
+    "value": "0.72",
+    "type": "opacity"
   }
 }

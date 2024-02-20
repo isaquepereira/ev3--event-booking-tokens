@@ -1,0 +1,38 @@
+{
+  "border-color-default-lvl-0": {
+    "value": "{gray.150}",
+    "type": "color"
+  },
+  "border-color-default-lvl-1": {
+    "value": "{gray.200}",
+    "type": "color"
+  },
+  "border-color-default-lvl-2": {
+    "value": "{gray.250}",
+    "type": "color"
+  },
+  "border-color-success-low-emphasis": {
+    "value": "{emerald.200}",
+    "type": "color"
+  },
+  "border-color-success-high-emphasis": {
+    "value": "{emerald.600}",
+    "type": "color"
+  },
+  "border-color-info-low-emphasis": {
+    "value": "{sky.200}",
+    "type": "color"
+  },
+  "border-color-info-high-emphasis": {
+    "value": "{sky.600}",
+    "type": "color"
+  },
+  "border-color-error-low-emphasis": {
+    "value": "{strawberry.200}",
+    "type": "color"
+  },
+  "border-color-error-high-emphasis": {
+    "value": "{strawberry.600}",
+    "type": "color"
+  }
+}
