@@ -1554,5 +1554,13 @@
   "opacity-semi-opaque": {
     "value": "0.72",
     "type": "opacity"
+  },
+  "txt-case-default": {
+    "value": "capitalize",
+    "type": "textCase"
+  },
+  "txt-paragraph-spacing-default": {
+    "value": "1.6rem",
+    "type": "paragraphSpacing"
   }
 }

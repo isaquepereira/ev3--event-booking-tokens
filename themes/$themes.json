@@ -6,10 +6,10 @@
     "selectedTokenSets": {
       "Core": "enabled",
       "Components/Buttons": "enabled",
-      "Core/Borders": "enabled",
-      "Core/Surfaces": "enabled",
-      "Core/Text": "enabled",
-      "Components/Input": "enabled"
+      "Components/Input": "enabled",
+      "Semantic/Surfaces": "enabled",
+      "Semantic/Text": "enabled",
+      "Semantic/Borders": "enabled"
     }
   }
 ]

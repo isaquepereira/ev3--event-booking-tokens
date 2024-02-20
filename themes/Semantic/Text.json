@@ -1,0 +1,48 @@
+{
+  "txt-default-color": {
+    "value": "{root.black}",
+    "type": "color"
+  },
+  "txt-error-color": {
+    "value": "{strawberry.600}",
+    "type": "color"
+  },
+  "txt-success-color": {
+    "value": "{emerald.600}",
+    "type": "color"
+  },
+  "txt-paragraph-color": {
+    "value": "{gray.600}",
+    "type": "color"
+  },
+  "txt-titles-color": {
+    "value": "{root.black}",
+    "type": "color"
+  },
+  "txt-sub-titles-color": {
+    "value": "{gray.600}",
+    "type": "color"
+  },
+  "txt-paragraph-sm": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{fs-nano}",
+      "lineHeight": "{comfy}",
+      "paragraphSpacing": "{txt-paragraph-spacing-default}",
+      "textCase": "{txt-case-default}"
+    },
+    "type": "typography"
+  },
+  "txt-paragraph-md": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{fs-base}",
+      "lineHeight": "{comfy}",
+      "paragraphSpacing": "{txt-paragraph-spacing-default}",
+      "textCase": "{txt-case-default}"
+    },
+    "type": "typography"
+  }
+}

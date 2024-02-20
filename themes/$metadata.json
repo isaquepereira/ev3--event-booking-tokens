@@ -1,9 +1,9 @@
 {
   "tokenSetOrder": [
     "Core",
-    "Core/Surfaces",
-    "Core/Borders",
-    "Core/Text",
+    "Semantic/Borders",
+    "Semantic/Text",
+    "Semantic/Surfaces",
     "Components/Buttons",
     "Components/Input"
   ]
