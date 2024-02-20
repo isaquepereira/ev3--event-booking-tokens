@@ -1520,5 +1520,15 @@
   "spacious": {
     "value": "152%",
     "type": "lineHeights"
+  },
+  "root": {
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "white": {
+      "value": "ffffff",
+      "type": "color"
+    }
   }
 }

@@ -1,0 +1,58 @@
+{
+  "button-primary-bg": {
+    "value": "linear-gradient (0deg, {brand.550} 0%, {brand.500} 100%)",
+    "type": "color"
+  },
+  "btn-primary-static-border": {
+    "value": {
+      "color": "{brand.550}",
+      "width": "{hairline}",
+      "style": "solid"
+    },
+    "type": "border"
+  },
+  "btn-br": {
+    "value": "{br-12}",
+    "type": "borderRadius"
+  },
+  "btn-primary-static-shadow": {
+    "value": [
+      {
+        "x": "0",
+        "y": "2",
+        "blur": "0",
+        "spread": "0",
+        "color": "rgba(255,255,255,0.2)",
+        "type": "innerShadow"
+      },
+      {
+        "x": "0",
+        "y": "4",
+        "blur": "8",
+        "spread": "-4",
+        "color": "rgba(0,0,0,0.2)",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0",
+        "y": "2",
+        "blur": "4",
+        "spread": "-2",
+        "color": "rgba(0,0,0,0.2)",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow"
+  },
+  "btn-primary-content-shadow": {
+    "value": {
+      "x": "0",
+      "y": "0.5",
+      "blur": "1",
+      "spread": "0",
+      "color": "rgba(0,0,0,0.2)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  }
+}
