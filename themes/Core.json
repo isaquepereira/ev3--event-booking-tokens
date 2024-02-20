@@ -1192,7 +1192,7 @@
     "type": "fontWeights"
   },
   "fw-medium": {
-    "value": "Medium",
+    "value": "SemiBold",
     "type": "fontWeights"
   },
   "fw-regular": {
@@ -1513,11 +1513,11 @@
     "value": "100%",
     "type": "lineHeights"
   },
-  "comfy": {
-    "value": "144%",
+  "minimal": {
+    "value": "120%",
     "type": "lineHeights"
   },
-  "spacious": {
+  "comfy": {
     "value": "152%",
     "type": "lineHeights"
   },
@@ -1554,10 +1554,6 @@
   "opacity-semi-opaque": {
     "value": "0.72",
     "type": "opacity"
-  },
-  "txt-case-default": {
-    "value": "capitalize",
-    "type": "textCase"
   },
   "txt-paragraph-spacing-default": {
     "value": "1.6rem",
