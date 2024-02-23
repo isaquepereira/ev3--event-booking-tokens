@@ -1,0 +1,246 @@
+{
+  "viewport": {
+    "current": {
+      "value": "480",
+      "type": "sizing"
+    }
+  },
+  "typographic": {
+    "fs-i": {
+      "value": "{typographic.fs-i-min} + ( {typographic.fs-i-max} - {typographic.fs-i-min} ) / ( {viewport.max} - {viewport.min}) * ( {viewport.current} - {viewport.min} ) * 0.5",
+      "type": "sizing"
+    }
+  },
+  "txt-paragraph-sm": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{pg-fs-1}",
+      "lineHeight": "{comfy}",
+      "paragraphSpacing": "{txt-paragraph-spacing-default}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-paragraph-md": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{pg-fs-2}",
+      "lineHeight": "{comfy}",
+      "paragraphSpacing": "{txt-paragraph-spacing-default}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-sub-title-06": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{pg-fs-2}",
+      "lineHeight": "{minimal}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-sub-title-05": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{pg-fs-3}",
+      "lineHeight": "{minimal}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-sub-title-04": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "lineHeight": "{minimal}",
+      "fontSize": "{pg-fs-4}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-sub-title-03": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "lineHeight": "{minimal}",
+      "fontSize": "{pg-fs-5}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-sub-title-02": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "lineHeight": "{minimal}",
+      "fontSize": "{pg-fs-6}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-sub-title-01": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "lineHeight": "{minimal}",
+      "fontSize": "{pg-fs-7}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-title-06": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-bold}",
+      "fontSize": "{pg-fs-3}",
+      "lineHeight": "{minimal}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-title-05": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-bold}",
+      "fontSize": "{pg-fs-4}",
+      "lineHeight": "{minimal}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-title-04": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-bold}",
+      "lineHeight": "{minimal}",
+      "fontSize": "{pg-fs-5}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-title-03": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-bold}",
+      "lineHeight": "{minimal}",
+      "fontSize": "{pg-fs-6}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-title-02": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-bold}",
+      "lineHeight": "{minimal}",
+      "fontSize": "{pg-fs-7}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-title-01": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-bold}",
+      "lineHeight": "{minimal}",
+      "fontSize": "{pg-fs-8}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "txt-title-hero": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-bold}",
+      "lineHeight": "{minimal}",
+      "fontSize": "{pg-fs-9}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "fs-0": {
+    "value": "{typographic.fs-i} + (1 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "fs-1": {
+    "value": "{typographic.fs-i} + (2 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "fs-2": {
+    "value": "{typographic.fs-i} + (3 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "fs-3": {
+    "value": "{typographic.fs-i} + (4 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "fs-4": {
+    "value": "{typographic.fs-i} + (5 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "fs-5": {
+    "value": "{typographic.fs-i} + (6 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "fs-6": {
+    "value": "{typographic.fs-i} + (7 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "fs-7": {
+    "value": "{typographic.fs-i} + (8 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "fs-8": {
+    "value": "{typographic.fs-i} + (9 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "fs-9": {
+    "value": "{typographic.fs-i} + (10 - 1) * {typographic.fs-paR}",
+    "type": "fontSizes"
+  },
+  "pg-fs-0": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 0)",
+    "type": "fontSizes"
+  },
+  "pg-fs-1": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 1)",
+    "type": "fontSizes"
+  },
+  "pg-fs-2": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR}^ 2)",
+    "type": "fontSizes"
+  },
+  "pg-fs-3": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 3)",
+    "type": "fontSizes"
+  },
+  "pg-fs-4": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 4)",
+    "type": "fontSizes"
+  },
+  "pg-fs-5": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 5)",
+    "type": "fontSizes"
+  },
+  "pg-fs-6": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 6)",
+    "type": "fontSizes"
+  },
+  "pg-fs-7": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 7)",
+    "type": "fontSizes"
+  },
+  "pg-fs-8": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 8)",
+    "type": "fontSizes"
+  },
+  "pg-fs-9": {
+    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 9)",
+    "type": "fontSizes"
+  }
+}

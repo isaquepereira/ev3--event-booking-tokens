@@ -5,11 +5,63 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Core": "enabled",
-      "Components/Buttons": "enabled",
-      "Components/Input": "enabled",
-      "Semantic/Surfaces": "enabled",
-      "Semantic/Text": "enabled",
-      "Semantic/Borders": "enabled"
-    }
+      "Core/Semantic/Surfaces": "enabled",
+      "Core/Semantic/Borders": "enabled",
+      "Core/Semantic/Text": "enabled",
+      "Core/Components/Buttons": "enabled",
+      "Core/Components/Input": "enabled",
+      "Fluid Type Scale (test)": "disabled",
+      "@768": "disabled",
+      "@1280": "disabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "e8ad745dd9824ad0baf2327dabb751d3652954b8",
+    "name": "Small",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Core": "enabled",
+      "Core/Semantic/Surfaces": "enabled",
+      "Core/Semantic/Borders": "enabled",
+      "Core/Semantic/Text": "enabled",
+      "Core/Components/Buttons": "enabled",
+      "Core/Components/Input": "enabled",
+      "@360": "enabled",
+      "Fluid Type Scale (test)": "disabled",
+      "@768": "disabled",
+      "@1280": "disabled"
+    },
+    "group": "Viewport"
+  },
+  {
+    "id": "cf68943b94162e7748266c40fe5c704e6b116826",
+    "name": "Medium",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Core": "enabled",
+      "Core/Semantic/Surfaces": "enabled",
+      "Core/Semantic/Borders": "enabled",
+      "Core/Semantic/Text": "enabled",
+      "Core/Components/Buttons": "enabled",
+      "Core/Components/Input": "enabled",
+      "@768": "enabled"
+    },
+    "group": "Viewport"
+  },
+  {
+    "id": "624a6d3059028f0bce92705995d1e7be837775ad",
+    "name": "Large",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Core": "enabled",
+      "Core/Semantic/Surfaces": "enabled",
+      "Core/Semantic/Borders": "enabled",
+      "Core/Semantic/Text": "enabled",
+      "Core/Components/Buttons": "enabled",
+      "Core/Components/Input": "enabled",
+      "@1280": "enabled"
+    },
+    "group": "Viewport"
   }
 ]

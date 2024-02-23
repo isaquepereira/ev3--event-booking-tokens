@@ -1,10 +1,14 @@
 {
   "tokenSetOrder": [
     "Core",
-    "Semantic/Surfaces",
-    "Semantic/Borders",
-    "Semantic/Text",
-    "Components/Buttons",
-    "Components/Input"
+    "Core/Semantic/Surfaces",
+    "Core/Semantic/Borders",
+    "Core/Semantic/Text",
+    "Core/Components/Buttons",
+    "Core/Components/Input",
+    "@360",
+    "@768",
+    "@1280",
+    "Fluid Type Scale (test)"
   ]
 }

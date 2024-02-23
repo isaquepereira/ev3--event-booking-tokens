@@ -170,7 +170,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
-      "fontSize": "{fs-base}",
+      "fontSize": "{fs-1}",
       "lineHeight": "{minimal}"
     },
     "type": "typography"
@@ -179,7 +179,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
-      "fontSize": "{fs-nano}",
+      "fontSize": "{fs-0}",
       "lineHeight": "{minimal}"
     },
     "type": "typography"

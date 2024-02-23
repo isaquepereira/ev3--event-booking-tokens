@@ -394,7 +394,7 @@
       "$extensions": {
         "studio.tokens": {
           "modify": {
-            "type": "darken",
+            "type": "lighten",
             "value": "{modifier.550}",
             "space": "lch"
           }
@@ -1147,46 +1147,6 @@
     "value": "Sora",
     "type": "fontFamilies"
   },
-  "fs-nano": {
-    "value": "1.4rem",
-    "type": "fontSizes"
-  },
-  "fs-base": {
-    "value": "1.6rem",
-    "type": "fontSizes"
-  },
-  "fs-medium": {
-    "value": "2rem",
-    "type": "fontSizes"
-  },
-  "fs-large": {
-    "value": "2.4rem",
-    "type": "fontSizes"
-  },
-  "fs-2nano": {
-    "value": "{fs-nano} * 2",
-    "type": "fontSizes"
-  },
-  "fs-2base": {
-    "value": "{fs-base} * 2",
-    "type": "fontSizes"
-  },
-  "fs-2medium": {
-    "value": "{fs-medium} * 2",
-    "type": "fontSizes"
-  },
-  "fs-2large": {
-    "value": "{fs-large} * 2",
-    "type": "fontSizes"
-  },
-  "fs-bear": {
-    "value": "5.6rem",
-    "type": "fontSizes"
-  },
-  "fs-mammoth": {
-    "value": "6.4rem",
-    "type": "fontSizes"
-  },
   "fw-bold": {
     "value": "Bold",
     "type": "fontWeights"
@@ -1497,17 +1457,27 @@
     },
     "type": "composition"
   },
-  "sz-viewport-small": {
-    "value": "360",
-    "type": "sizing"
-  },
-  "sz-viewport-medium": {
-    "value": "640",
-    "type": "sizing"
-  },
-  "sz-viewport-large": {
-    "value": "1280",
-    "type": "sizing"
+  "viewport": {
+    "small": {
+      "value": "{viewport.min}",
+      "type": "sizing"
+    },
+    "medium": {
+      "value": "768",
+      "type": "sizing"
+    },
+    "large": {
+      "value": "{viewport.max}",
+      "type": "sizing"
+    },
+    "min": {
+      "value": "360",
+      "type": "sizing"
+    },
+    "max": {
+      "value": "1280",
+      "type": "sizing"
+    }
   },
   "tight": {
     "value": "100%",
@@ -1558,5 +1528,45 @@
   "txt-paragraph-spacing-default": {
     "value": "1.6rem",
     "type": "paragraphSpacing"
+  },
+  "ls-null": {
+    "value": "0",
+    "type": "letterSpacing"
+  },
+  "ls-loose": {
+    "value": "2",
+    "type": "letterSpacing"
+  },
+  "ls-spacious": {
+    "value": "8",
+    "type": "letterSpacing"
+  },
+  "typographic": {
+    "fs-i-min": {
+      "value": "12",
+      "type": "sizing"
+    },
+    "fs-i-max": {
+      "value": "16",
+      "type": "sizing"
+    },
+    "fs-vr": {
+      "value": "1.618",
+      "type": "sizing",
+      "description": "viewport ratio calculation"
+    },
+    "fs-paR": {
+      "value": "((( {viewport.current} - {viewport.min}) / {viewport.max}) * 1.618) + {typographic.fs-pa-baseR}",
+      "type": "sizing"
+    },
+    "fs-pgR": {
+      "value": "1.13",
+      "type": "sizing",
+      "description": "Variable. Adjust to meet your visual guidelines.\nThis will impact the fontSize scale PG"
+    },
+    "fs-pa-baseR": {
+      "value": "2",
+      "type": "sizing"
+    }
   }
 }
