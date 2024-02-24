@@ -166,11 +166,11 @@
     },
     "type": "composition"
   },
-  "input-text": {
+  "input-text-content": {
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
-      "fontSize": "{fs-1}",
+      "fontSize": "{pg-fs-2}",
       "lineHeight": "{minimal}"
     },
     "type": "typography"
@@ -183,5 +183,29 @@
       "lineHeight": "{minimal}"
     },
     "type": "typography"
+  },
+  "input-text-label": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{pg-fs-2}",
+      "lineHeight": "{minimal}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "input-text-helper": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{pg-fs-0}",
+      "lineHeight": "{minimal}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "input-label": {
+    "value": "{txt-default-color}",
+    "type": "color"
   }
 }

@@ -1,6 +1,6 @@
 {
   "txt-default-color": {
-    "value": "{root.black}",
+    "value": "{gray.900}",
     "type": "color"
   },
   "txt-error-color": {

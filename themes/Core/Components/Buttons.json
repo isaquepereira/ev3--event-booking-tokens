@@ -253,5 +253,9 @@
   "btn-secondary-loading-content": {
     "value": "{root.white}",
     "type": "color"
+  },
+  "btn-tertiary-static-content": {
+    "value": "{gray.900}",
+    "type": "color"
   }
 }
