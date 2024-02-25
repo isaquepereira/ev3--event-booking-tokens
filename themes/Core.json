@@ -394,7 +394,7 @@
       "$extensions": {
         "studio.tokens": {
           "modify": {
-            "type": "lighten",
+            "type": "darken",
             "value": "{modifier.550}",
             "space": "lch"
           }
@@ -1560,7 +1560,7 @@
       "type": "sizing"
     },
     "fs-pgR": {
-      "value": "1.13",
+      "value": "1.12",
       "type": "sizing",
       "description": "Variable. Adjust to meet your visual guidelines.\nThis will impact the fontSize scale PG"
     },

@@ -3,6 +3,10 @@
     "value": "{gray.900}",
     "type": "color"
   },
+  "txt-subtle-color": {
+    "value": "{gray.600}",
+    "type": "color"
+  },
   "txt-error-color": {
     "value": "{strawberry.600}",
     "type": "color"
