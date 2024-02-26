@@ -4,6 +4,7 @@
     "Core/Semantic/Surfaces",
     "Core/Semantic/Borders",
     "Core/Semantic/Text",
+    "Core/Semantic/Icons",
     "Core/Components/Buttons",
     "Core/Components/Input",
     "@360",

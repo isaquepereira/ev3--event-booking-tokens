@@ -199,13 +199,17 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
       "fontSize": "{pg-fs-0}",
-      "lineHeight": "{minimal}",
+      "lineHeight": "{comfy}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
   },
   "input-label": {
     "value": "{txt-default-color}",
+    "type": "color"
+  },
+  "input-required-text-color": {
+    "value": "{brand.500}",
     "type": "color"
   }
 }

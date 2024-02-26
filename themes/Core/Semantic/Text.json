@@ -26,5 +26,9 @@
   "txt-sub-titles-color": {
     "value": "{gray.800}",
     "type": "color"
+  },
+  "txt-link-color": {
+    "value": "{brand.500}",
+    "type": "color"
   }
 }

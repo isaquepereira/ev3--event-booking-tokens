@@ -1,0 +1,30 @@
+{
+  "icon-xs": {
+    "value": "12",
+    "type": "sizing"
+  },
+  "icon-sm": {
+    "value": "16",
+    "type": "sizing"
+  },
+  "icon-md": {
+    "value": "20",
+    "type": "sizing"
+  },
+  "icon-lg": {
+    "value": "24",
+    "type": "sizing"
+  },
+  "icon-xl": {
+    "value": "32",
+    "type": "sizing"
+  },
+  "icon-color-default": {
+    "value": "{root.black}",
+    "type": "color"
+  },
+  "icon-color-inversed": {
+    "value": "{root.white}",
+    "type": "color"
+  }
+}

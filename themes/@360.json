@@ -242,5 +242,15 @@
   "pg-fs-9": {
     "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 9)",
     "type": "fontSizes"
+  },
+  "txt-caption": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{pg-fs-0}",
+      "lineHeight": "{comfy}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
   }
 }
