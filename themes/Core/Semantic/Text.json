@@ -4,7 +4,7 @@
     "type": "color"
   },
   "txt-subtle-color": {
-    "value": "{gray.600}",
+    "value": "{gray.550}",
     "type": "color"
   },
   "txt-error-color": {
