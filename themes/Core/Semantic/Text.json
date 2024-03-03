@@ -1,6 +1,6 @@
 {
   "txt-default-color": {
-    "value": "{gray.900}",
+    "value": "{gray.700}",
     "type": "color"
   },
   "txt-subtle-color": {

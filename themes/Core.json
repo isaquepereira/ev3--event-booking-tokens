@@ -171,7 +171,7 @@
       }
     },
     "500": {
-      "value": "#ff6040",
+      "value": "#ff6a2f",
       "type": "color"
     },
     "550": {
@@ -1027,7 +1027,7 @@
       }
     },
     "500": {
-      "value": "#03bd66",
+      "value": "#04b964",
       "type": "color"
     },
     "550": {
@@ -1267,196 +1267,6 @@
     "value": "28",
     "type": "borderRadius"
   },
-  "br-top-left-12": {
-    "value": {
-      "borderRadiusTopLeft": "{br-12}"
-    },
-    "type": "composition"
-  },
-  "br-top-right-12": {
-    "value": {
-      "borderRadiusTopRight": "{br-12}"
-    },
-    "type": "composition"
-  },
-  "br-top-both-12": {
-    "value": {
-      "borderRadiusTopLeft": "{br-12}",
-      "borderRadiusTopRight": "{br-12}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-both-12": {
-    "value": {
-      "borderRadiusBottomLeft": "{br-12}",
-      "borderRadiusBottomRight": "{br-12}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-left-12": {
-    "value": {
-      "borderRadiusTopLeft": "{br-12}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-right-12": {
-    "value": {
-      "borderRadiusTopRight": "{br-12}"
-    },
-    "type": "composition"
-  },
-  "br-top-left-16": {
-    "value": {
-      "borderRadiusTopLeft": "{br-16}"
-    },
-    "type": "composition"
-  },
-  "br-top-right-16": {
-    "value": {
-      "borderRadiusTopRight": "{br-16}"
-    },
-    "type": "composition"
-  },
-  "br-top-both-16": {
-    "value": {
-      "borderRadiusTopLeft": "{br-16}",
-      "borderRadiusTopRight": "{br-16}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-both-16": {
-    "value": {
-      "borderRadiusBottomLeft": "{br-16}",
-      "borderRadiusBottomRight": "{br-16}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-left-16": {
-    "value": {
-      "borderRadiusTopLeft": "{br-16}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-right-16": {
-    "value": {
-      "borderRadiusTopRight": "{br-16}"
-    },
-    "type": "composition"
-  },
-  "br-top-left-20": {
-    "value": {
-      "borderRadiusTopLeft": "{br-20}"
-    },
-    "type": "composition"
-  },
-  "br-top-right-20": {
-    "value": {
-      "borderRadiusTopRight": "{br-20}"
-    },
-    "type": "composition"
-  },
-  "br-top-both-20": {
-    "value": {
-      "borderRadiusTopLeft": "{br-20}",
-      "borderRadiusTopRight": "{br-20}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-both-20": {
-    "value": {
-      "borderRadiusBottomLeft": "{br-20}",
-      "borderRadiusBottomRight": "{br-20}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-left-20": {
-    "value": {
-      "borderRadiusTopLeft": "{br-20}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-right-20": {
-    "value": {
-      "borderRadiusTopRight": "{br-20}"
-    },
-    "type": "composition"
-  },
-  "br-top-left-24": {
-    "value": {
-      "borderRadiusTopLeft": "{br-24}"
-    },
-    "type": "composition"
-  },
-  "br-top-right-24": {
-    "value": {
-      "borderRadiusTopRight": "{br-24}"
-    },
-    "type": "composition"
-  },
-  "br-top-both-24": {
-    "value": {
-      "borderRadiusTopLeft": "{br-24}",
-      "borderRadiusTopRight": "{br-24}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-both-24": {
-    "value": {
-      "borderRadiusBottomLeft": "{br-24}",
-      "borderRadiusBottomRight": "{br-24}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-left-24": {
-    "value": {
-      "borderRadiusTopLeft": "{br-24}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-right-24": {
-    "value": {
-      "borderRadiusTopRight": "{br-24}"
-    },
-    "type": "composition"
-  },
-  "br-top-left-28": {
-    "value": {
-      "borderRadiusTopLeft": "{br-28}"
-    },
-    "type": "composition"
-  },
-  "br-top-right-28": {
-    "value": {
-      "borderRadiusTopRight": "{br-28}"
-    },
-    "type": "composition"
-  },
-  "br-top-both-28": {
-    "value": {
-      "borderRadiusTopLeft": "{br-28}",
-      "borderRadiusTopRight": "{br-28}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-both-28": {
-    "value": {
-      "borderRadiusBottomLeft": "{br-28}",
-      "borderRadiusBottomRight": "{br-28}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-left-28": {
-    "value": {
-      "borderRadiusTopLeft": "{br-28}"
-    },
-    "type": "composition"
-  },
-  "br-bottom-right-28": {
-    "value": {
-      "borderRadiusTopRight": "{br-28}"
-    },
-    "type": "composition"
-  },
   "viewport": {
     "small": {
       "value": "{viewport.min}",
@@ -1568,5 +1378,9 @@
       "value": "2",
       "type": "sizing"
     }
+  },
+  "br-500": {
+    "value": "500",
+    "type": "borderRadius"
   }
 }

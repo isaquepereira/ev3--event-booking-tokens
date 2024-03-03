@@ -9,7 +9,6 @@
     "Core/Components/Input",
     "@360",
     "@768",
-    "@1280",
-    "Fluid Type Scale (test)"
+    "@1280"
   ]
 }

@@ -28,8 +28,8 @@
       "fontWeight": "{fw-regular}",
       "fontSize": "{pg-fs-2}",
       "lineHeight": "{comfy}",
-      "paragraphSpacing": "{txt-paragraph-spacing-default}",
-      "letterSpacing": "{ls-null}"
+      "letterSpacing": "{ls-null}",
+      "paragraphSpacing": "12"
     },
     "type": "typography"
   },
