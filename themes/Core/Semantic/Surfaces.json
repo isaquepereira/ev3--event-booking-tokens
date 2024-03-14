@@ -1,7 +1,9 @@
 {
-  "surface-default-lvl-0": {
-    "value": "{root.white}",
-    "type": "color"
+  "surfaces": {
+    "surface-default-lvl-0": {
+      "value": "{root.white}",
+      "type": "color"
+    }
   },
   "surface-default-lvl-1": {
     "value": "{gray.100}",
@@ -33,6 +35,18 @@
   },
   "surface-error-high-emphasis": {
     "value": "{strawberry.500}",
+    "type": "color"
+  },
+  "surface-interactive-static": {
+    "value": "{brand.150}",
+    "type": "color"
+  },
+  "surface-interactive-hover": {
+    "value": "{brand.200}",
+    "type": "color"
+  },
+  "surface-interactive-active": {
+    "value": "{brand.500}",
     "type": "color"
   }
 }

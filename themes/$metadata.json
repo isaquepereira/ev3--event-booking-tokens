@@ -1,12 +1,13 @@
 {
   "tokenSetOrder": [
     "Core",
+    "Core/Semantical",
     "Core/Semantic/Surfaces",
     "Core/Semantic/Borders",
     "Core/Semantic/Text",
-    "Core/Semantic/Icons",
     "Core/Components/Buttons",
     "Core/Components/Input",
+    "Core/Components/Pagination",
     "@360",
     "@768",
     "@1280"

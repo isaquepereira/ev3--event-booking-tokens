@@ -1,0 +1,9 @@
+{
+  "bg-default": {
+    "value": {
+      "backgroundBlur": "20",
+      "fill": "{surfaces.bg-onLight-lvl-2}"
+    },
+    "type": "composition"
+  }
+}

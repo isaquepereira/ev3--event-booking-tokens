@@ -97,15 +97,15 @@
       {
         "x": "0",
         "y": "4",
-        "blur": "12",
+        "blur": "8",
         "spread": "-4",
-        "color": "rgba(0,0,0,0.08)",
+        "color": "rgba(0,0,0,0.12)",
         "type": "dropShadow"
       },
       {
         "x": "0",
         "y": "2",
-        "blur": "8",
+        "blur": "4",
         "spread": "-4",
         "color": "rgba(0,0,0,0.16)",
         "type": "dropShadow"
@@ -251,7 +251,7 @@
     "type": "color"
   },
   "btn-tertiary-static-bg": {
-    "value": "{surface-default-lvl-0}",
+    "value": "{surfaces.surface-default-lvl-0}",
     "type": "color"
   },
   "btn-tertiary-pressed-bg": {

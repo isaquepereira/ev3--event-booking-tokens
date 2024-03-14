@@ -813,7 +813,7 @@
       }
     },
     "500": {
-      "value": "#06BAFF",
+      "value": "#17b3ea",
       "type": "color"
     },
     "550": {
@@ -1316,11 +1316,11 @@
     "type": "opacity"
   },
   "opacity-glass": {
-    "value": "0.16",
+    "value": "0.12",
     "type": "opacity"
   },
   "opacity-silk": {
-    "value": "0.24",
+    "value": "0.20",
     "type": "opacity"
   },
   "opacity-medium": {

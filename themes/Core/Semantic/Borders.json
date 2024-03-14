@@ -34,5 +34,13 @@
   "border-color-error-high-emphasis": {
     "value": "{strawberry.600}",
     "type": "color"
+  },
+  "border-interactive-hover": {
+    "value": "{brand.400}",
+    "type": "color"
+  },
+  "border-interactive-active": {
+    "value": "{brand.500}",
+    "type": "color"
   }
 }
