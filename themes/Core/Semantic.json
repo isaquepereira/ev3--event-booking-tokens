@@ -186,6 +186,20 @@
     "txt-link-color": {
       "value": "{brand.500}",
       "type": "color"
+    },
+    "interactive-hover": {
+      "value": "{brand.500}",
+      "type": "color"
+    },
+    "interactive-active": {
+      "value": "{brand.100}",
+      "type": "color"
     }
+  },
+  "background-blur-soft": {
+    "value": {
+      "backgroundBlur": "20"
+    },
+    "type": "composition"
   }
 }

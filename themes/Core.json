@@ -1343,6 +1343,10 @@
     "value": "1.6rem",
     "type": "paragraphSpacing"
   },
+  "txt-paragraph-spacing-null": {
+    "value": "0",
+    "type": "paragraphSpacing"
+  },
   "ls-null": {
     "value": "0",
     "type": "letterSpacing"

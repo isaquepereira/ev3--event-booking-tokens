@@ -1,25 +1,16 @@
 {
   "bg-hover": {
-    "value": "{root.black}",
-    "type": "color",
-    "$extensions": {
-      "studio.tokens": {
-        "modify": {
-          "type": "alpha",
-          "value": "{opacity-acrylic}",
-          "space": "lch"
-        }
-      }
-    }
+    "value": "{surface-interactive-hover}",
+    "type": "color"
   },
   "bg-static": {
-    "value": "{root.white}",
+    "value": "{surface-interactive-static}",
     "type": "color",
     "$extensions": {
       "studio.tokens": {
         "modify": {
           "type": "alpha",
-          "value": "{opacity-medium}",
+          "value": "{opacity-glass}",
           "space": "lch"
         }
       }
@@ -56,5 +47,17 @@
         }
       }
     }
+  },
+  "text": {
+    "value": "{root.white}",
+    "type": "color"
+  },
+  "text-hover": {
+    "value": "{texts.interactive-hover}",
+    "type": "color"
+  },
+  "text-active": {
+    "value": "{texts.interactive-active}",
+    "type": "color"
   }
 }
