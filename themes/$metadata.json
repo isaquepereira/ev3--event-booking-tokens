@@ -5,7 +5,9 @@
     "Core/Components/Buttons",
     "Core/Components/Input",
     "Core/Components/Pagination",
+    "Core/Components/Spinner",
     "Core/Components/Header",
+    "Core/Components/Tab",
     "@360",
     "@768",
     "@1280"

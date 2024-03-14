@@ -72,24 +72,24 @@
     "type": "color"
   },
   "input-error-bg": {
-    "value": "{surface-error-low-emphasis}",
+    "value": "{surfaces.error.low-emphasis}",
     "type": "color"
   },
   "input-success-bg": {
-    "value": "{surface-success-low-emphasis}",
+    "value": "{surfaces.success.low-emphasis}",
     "type": "color"
   },
   "input-error-content": {
-    "value": "{txt-error-color}",
+    "value": "{texts.txt-error-onLowEmphasisSurface}",
     "type": "color"
   },
   "input-success-content": {
-    "value": "{txt-success-color}",
+    "value": "{texts.txt-success-onLowEmphasisSurface}",
     "type": "color"
   },
   "input-error-border": {
     "value": {
-      "color": "{border-color-error-high-emphasis}",
+      "color": "{borders.border-color-error-high-emphasis}",
       "width": "{hairline}",
       "style": "solid"
     },
@@ -97,7 +97,7 @@
   },
   "input-success-border": {
     "value": {
-      "color": "{border-color-success-high-emphasis}",
+      "color": "{borders.success.high-emphasis}",
       "width": "{hairline}",
       "style": "solid"
     },
@@ -205,7 +205,7 @@
     "type": "typography"
   },
   "input-label": {
-    "value": "{txt-default-color}",
+    "value": "{texts.txt-default-color}",
     "type": "color"
   },
   "input-required-text-color": {

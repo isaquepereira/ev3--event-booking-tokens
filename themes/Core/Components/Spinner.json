@@ -1,10 +1,4 @@
 {
-  "background-blur-static": {
-    "value": {
-      "backgroundBlur": "20"
-    },
-    "type": "composition"
-  },
   "bg-thumb-onLight": {
     "value": "{root.black}",
     "type": "color",
@@ -17,6 +11,12 @@
         }
       }
     }
+  },
+  "background-blur-static": {
+    "value": {
+      "backgroundBlur": "20"
+    },
+    "type": "composition"
   },
   "bg-thumb-onDark": {
     "value": "{root.white}",

@@ -1,0 +1,45 @@
+{
+  "icon-size": {
+    "value": "{icons.icon-3}",
+    "type": "sizing"
+  },
+  "label": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{pg-fs-2}",
+      "lineHeight": "{tight}",
+      "letterSpacing": "{ls-null}",
+      "paragraphSpacing": "{txt-paragraph-spacing-null}"
+    },
+    "type": "typography"
+  },
+  "content": {
+    "inactive": {
+      "value": "{gray.500}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{gray.700}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{gray.900}",
+      "type": "color"
+    }
+  },
+  "border": {
+    "inactive": {
+      "value": "transparent",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{borders.interactive.hover}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{borders.interactive.active}",
+      "type": "color"
+    }
+  }
+}

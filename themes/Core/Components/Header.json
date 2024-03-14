@@ -1,10 +1,10 @@
 {
   "bg-hover": {
-    "value": "{surface-interactive-hover}",
+    "value": "{surfaces.interactive.hover}",
     "type": "color"
   },
   "bg-static": {
-    "value": "{surface-interactive-static}",
+    "value": "{surfaces.surface-interactive-static}",
     "type": "color",
     "$extensions": {
       "studio.tokens": {
