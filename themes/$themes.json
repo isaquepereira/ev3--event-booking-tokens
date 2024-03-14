@@ -9,7 +9,8 @@
       "Core/Semantic/Borders": "enabled",
       "Core/Semantic/Text": "enabled",
       "Core/Components/Buttons": "enabled",
-      "Core/Components/Input": "enabled"
+      "Core/Components/Input": "enabled",
+      "Core/Semantical": "enabled"
     },
     "group": "Theme"
   },
@@ -24,7 +25,8 @@
       "Core/Semantic/Text": "enabled",
       "Core/Components/Buttons": "enabled",
       "Core/Components/Input": "enabled",
-      "@360": "enabled"
+      "@360": "enabled",
+      "Core/Semantical": "enabled"
     },
     "group": "Viewport"
   },

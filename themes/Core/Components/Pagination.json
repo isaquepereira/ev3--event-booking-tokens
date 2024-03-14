@@ -1,9 +1,60 @@
 {
-  "bg-default": {
+  "bg-onLight": {
+    "value": "{root.black}",
+    "type": "color",
+    "$extensions": {
+      "studio.tokens": {
+        "modify": {
+          "type": "alpha",
+          "value": "{opacity-acrylic}",
+          "space": "lch"
+        }
+      }
+    }
+  },
+  "bg-onDark": {
+    "value": "{root.white}",
+    "type": "color",
+    "$extensions": {
+      "studio.tokens": {
+        "modify": {
+          "type": "alpha",
+          "value": "{opacity-medium}",
+          "space": "lch"
+        }
+      }
+    }
+  },
+  "background-blur-static": {
     "value": {
-      "backgroundBlur": "20",
-      "fill": "{surfaces.bg-onLight-lvl-2}"
+      "backgroundBlur": "20"
     },
     "type": "composition"
+  },
+  "bg-thumb-onLight": {
+    "value": "{root.black}",
+    "type": "color",
+    "$extensions": {
+      "studio.tokens": {
+        "modify": {
+          "type": "alpha",
+          "value": "{opacity-curtain}",
+          "space": "lch"
+        }
+      }
+    }
+  },
+  "bg-thumb-onDark": {
+    "value": "{root.white}",
+    "type": "color",
+    "$extensions": {
+      "studio.tokens": {
+        "modify": {
+          "type": "alpha",
+          "value": "{opacity-curtain}",
+          "space": "lch"
+        }
+      }
+    }
   }
 }

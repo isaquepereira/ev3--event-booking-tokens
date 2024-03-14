@@ -1311,27 +1311,31 @@
       "type": "color"
     }
   },
-  "opacity-semi-transparent": {
+  "opacity-gas": {
     "value": "0.08",
     "type": "opacity"
   },
-  "opacity-glass": {
+  "opacity-acrylic": {
     "value": "0.12",
     "type": "opacity"
   },
-  "opacity-silk": {
+  "opacity-glass": {
     "value": "0.20",
     "type": "opacity"
   },
   "opacity-medium": {
-    "value": "0.40",
+    "value": "0.28",
     "type": "opacity"
   },
-  "opacity-frostred-glass": {
+  "opacity-ice": {
+    "value": "0.48",
+    "type": "opacity"
+  },
+  "opacity-paper": {
     "value": "0.64",
     "type": "opacity"
   },
-  "opacity-semi-opaque": {
+  "opacity-curtain": {
     "value": "0.72",
     "type": "opacity"
   },

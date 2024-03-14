@@ -162,7 +162,7 @@
   "input-outline": {
     "value": {
       "border": "{input-outline-border}",
-      "opacity": "{opacity-glass}"
+      "opacity": "{opacity-acrylic}"
     },
     "type": "composition"
   },
