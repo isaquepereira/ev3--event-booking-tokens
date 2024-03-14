@@ -1386,5 +1386,9 @@
   "br-500": {
     "value": "500",
     "type": "borderRadius"
+  },
+  "uaishda": {
+    "value": "10000",
+    "type": "sizing"
   }
 }
