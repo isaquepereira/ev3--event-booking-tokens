@@ -1,0 +1,30 @@
+{
+  "bg-disabled": {
+    "value": "{gray.200}",
+    "type": "color"
+  },
+  "bg-active": {
+    "value": "{brand.500}",
+    "type": "color"
+  },
+  "bg-error": {
+    "value": "{surfaces.error.surface-error-high-emphasis}",
+    "type": "color"
+  },
+  "border-disabled": {
+    "value": "{gray.250}",
+    "type": "color"
+  },
+  "border-static": {
+    "value": "{gray.250}",
+    "type": "color"
+  },
+  "content-disabled": {
+    "value": "{gray.400}",
+    "type": "color"
+  },
+  "content-active": {
+    "value": "{texts.interactive.active}",
+    "type": "color"
+  }
+}

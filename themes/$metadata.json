@@ -1,15 +1,17 @@
 {
   "tokenSetOrder": [
     "Core",
-    "Core/Semantic",
-    "Core/Components/Buttons",
-    "Core/Components/Input",
-    "Core/Components/Pagination",
-    "Core/Components/Spinner",
-    "Core/Components/Header",
-    "Core/Components/Tab",
-    "@360",
-    "@768",
-    "@1280"
+    "Semantic",
+    "Components/Buttons",
+    "Components/Input",
+    "Components/Pagination",
+    "Components/Spinner",
+    "Components/Header",
+    "Components/Tab",
+    "Components/Switch",
+    "Components/Checkbox",
+    "Breakpoints/@360",
+    "Breakpoints/@768",
+    "Breakpoints/@1280"
   ]
 }

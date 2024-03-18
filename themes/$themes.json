@@ -5,13 +5,18 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Core": "enabled",
-      "Core/Components/Buttons": "enabled",
-      "Core/Components/Input": "enabled",
-      "Core/Components/Pagination": "enabled",
-      "Core/Components/Header": "enabled",
-      "Core/Semantic": "enabled",
-      "Core/Components/Spinner": "disabled",
-      "Core/Components/Tab": "disabled"
+      "Components/Buttons": "enabled",
+      "Components/Input": "enabled",
+      "Components/Pagination": "enabled",
+      "Components/Spinner": "enabled",
+      "Components/Header": "enabled",
+      "Components/Tab": "enabled",
+      "Components/Switch": "enabled",
+      "Components/Checkbox": "enabled",
+      "Semantic": "enabled",
+      "Breakpoints/@360": "disabled",
+      "Breakpoints/@768": "disabled",
+      "Breakpoints/@1280": "disabled"
     },
     "group": "Theme"
   },
@@ -21,12 +26,18 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Core": "enabled",
-      "Core/Components/Buttons": "enabled",
-      "Core/Components/Input": "enabled",
-      "@360": "enabled",
-      "Core/Semantic": "enabled",
-      "Core/Components/Spinner": "disabled",
-      "Core/Components/Tab": "disabled"
+      "Components/Buttons": "enabled",
+      "Components/Input": "enabled",
+      "Components/Pagination": "disabled",
+      "Components/Spinner": "disabled",
+      "Components/Header": "disabled",
+      "Components/Tab": "disabled",
+      "Components/Switch": "disabled",
+      "Components/Checkbox": "disabled",
+      "Semantic": "enabled",
+      "Breakpoints/@360": "enabled",
+      "Breakpoints/@768": "disabled",
+      "Breakpoints/@1280": "disabled"
     },
     "group": "Viewport"
   },
@@ -36,11 +47,18 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Core": "enabled",
-      "Core/Components/Buttons": "enabled",
-      "Core/Components/Input": "enabled",
-      "@768": "enabled",
-      "Core/Components/Spinner": "disabled",
-      "Core/Components/Tab": "disabled"
+      "Components/Buttons": "enabled",
+      "Components/Input": "enabled",
+      "Components/Pagination": "disabled",
+      "Components/Spinner": "disabled",
+      "Components/Header": "disabled",
+      "Components/Tab": "disabled",
+      "Components/Switch": "disabled",
+      "Components/Checkbox": "disabled",
+      "Semantic": "disabled",
+      "Breakpoints/@360": "disabled",
+      "Breakpoints/@768": "enabled",
+      "Breakpoints/@1280": "disabled"
     },
     "group": "Viewport"
   },
@@ -50,11 +68,18 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Core": "enabled",
-      "Core/Components/Buttons": "enabled",
-      "Core/Components/Input": "enabled",
-      "@1280": "enabled",
-      "Core/Components/Spinner": "disabled",
-      "Core/Components/Tab": "disabled"
+      "Components/Buttons": "enabled",
+      "Components/Input": "enabled",
+      "Components/Pagination": "disabled",
+      "Components/Spinner": "disabled",
+      "Components/Header": "disabled",
+      "Components/Tab": "disabled",
+      "Components/Switch": "disabled",
+      "Components/Checkbox": "disabled",
+      "Semantic": "disabled",
+      "Breakpoints/@360": "disabled",
+      "Breakpoints/@768": "disabled",
+      "Breakpoints/@1280": "enabled"
     },
     "group": "Viewport"
   }

@@ -1,17 +1,41 @@
 {
-  "input-static-bg": {
+  "field-label": {
+    "value": "{texts.txt-default-color}",
+    "type": "color"
+  },
+  "field-required-text-color": {
+    "value": "{brand.500}",
+    "type": "color"
+  },
+  "field-bg-static": {
     "value": "{root.white}",
     "type": "color"
   },
-  "input-filled-bg": {
+  "field-bg-hover": {
+    "value": "{gray.100}",
+    "type": "color"
+  },
+  "field-bg-active": {
     "value": "{root.white}",
     "type": "color"
   },
-  "input-static-placeholder": {
+  "field-bg-filled": {
+    "value": "{root.white}",
+    "type": "color"
+  },
+  "field-bg-error": {
+    "value": "{surfaces.error.low-emphasis}",
+    "type": "color"
+  },
+  "field-bg-success": {
+    "value": "{surfaces.success.low-emphasis}",
+    "type": "color"
+  },
+  "field-placeholder-static": {
     "value": "{gray.300}",
     "type": "color"
   },
-  "input-static-border": {
+  "field-static-border": {
     "value": {
       "width": "{hairline}",
       "color": "{gray.300}",
@@ -19,7 +43,7 @@
     },
     "type": "border"
   },
-  "input-addon-border": {
+  "field-addon-border": {
     "value": {
       "width": "{hairline}",
       "color": "{gray.300}",
@@ -27,7 +51,7 @@
     },
     "type": "border"
   },
-  "input-hover-border": {
+  "field-border-hover": {
     "value": {
       "width": "{hairline}",
       "color": "{gray.400}",
@@ -35,7 +59,7 @@
     },
     "type": "border"
   },
-  "input-active-border": {
+  "field-border-active": {
     "value": {
       "width": "{hairline}",
       "color": "{root.black}",
@@ -43,11 +67,11 @@
     },
     "type": "border"
   },
-  "input-hover-placeholder": {
+  "field-hover-placeholder": {
     "value": "{gray.500}",
     "type": "color"
   },
-  "input-filled-border": {
+  "field-filled-border": {
     "value": {
       "width": "{hairline}",
       "color": "{gray.300}",
@@ -55,39 +79,23 @@
     },
     "type": "border"
   },
-  "input-active-placeholder": {
+  "field-active-placeholder": {
     "value": "{gray.300}",
     "type": "color"
   },
-  "input-filled-content": {
+  "field-filled-content": {
     "value": "{root.black}",
     "type": "color"
   },
-  "input-hover-bg": {
-    "value": "{gray.100}",
+  "field-error-content": {
+    "value": "{texts.error.txt-error-onLowEmphasisSurface}",
     "type": "color"
   },
-  "input-active-bg": {
-    "value": "{root.white}",
+  "field-success-content": {
+    "value": "{texts.success.txt-success-onLowEmphasisSurface}",
     "type": "color"
   },
-  "input-error-bg": {
-    "value": "{surfaces.error.low-emphasis}",
-    "type": "color"
-  },
-  "input-success-bg": {
-    "value": "{surfaces.success.low-emphasis}",
-    "type": "color"
-  },
-  "input-error-content": {
-    "value": "{texts.txt-error-onLowEmphasisSurface}",
-    "type": "color"
-  },
-  "input-success-content": {
-    "value": "{texts.txt-success-onLowEmphasisSurface}",
-    "type": "color"
-  },
-  "input-error-border": {
+  "field-error-border": {
     "value": {
       "color": "{borders.border-color-error-high-emphasis}",
       "width": "{hairline}",
@@ -95,7 +103,7 @@
     },
     "type": "border"
   },
-  "input-success-border": {
+  "field-success-border": {
     "value": {
       "color": "{borders.success.high-emphasis}",
       "width": "{hairline}",
@@ -103,55 +111,55 @@
     },
     "type": "border"
   },
-  "input-addon-content-default": {
+  "field-addon-content-default": {
     "value": "{gray.500}",
     "type": "color"
   },
-  "input-addon-content-inversed": {
+  "field-addon-content-inversed": {
     "value": "{root.white}",
     "type": "color"
   },
-  "input-addon-high-emphasis-action-static-bg": {
+  "field-addon-high-emphasis-action-static-bg": {
     "value": "{brand.500}",
     "type": "color"
   },
-  "input-addon-high-emphasis-action-hover-bg": {
+  "field-addon-high-emphasis-action-hover-bg": {
     "value": "{brand.600}",
     "type": "color"
   },
-  "input-addon-high-emphasis-action-pressed-bg": {
+  "field-addon-high-emphasis-action-pressed-bg": {
     "value": "{brand.700}",
     "type": "color"
   },
-  "input-addon-high-emphasis-action-toggled-bg": {
+  "field-addon-high-emphasis-action-toggled-bg": {
     "value": "{gray.900}",
     "type": "color"
   },
-  "input-addon-low-emphasis-action-static-bg": {
-    "value": "{input-static-bg}",
+  "field-addon-low-emphasis-action-static-bg": {
+    "value": "{field-bg-static}",
     "type": "color"
   },
-  "input-addon-low-emphasis-action-hover-bg": {
+  "field-addon-low-emphasis-action-hover-bg": {
     "value": "{gray.150}",
     "type": "color"
   },
-  "input-addon-low-emphasis-action-pressed-bg": {
+  "field-addon-low-emphasis-action-pressed-bg": {
     "value": "{gray.400}",
     "type": "color"
   },
-  "input-addon-low-emphasis-action-toggled-bg": {
+  "field-addon-low-emphasis-action-toggled-bg": {
     "value": "{gray.900}",
     "type": "color"
   },
-  "input-addon-action-error-bg": {
-    "value": "{input-error-bg}",
+  "field-addon-action-error-bg": {
+    "value": "{field-error-bg}",
     "type": "color"
   },
-  "input-addon-action-success-bg": {
-    "value": "{input-success-bg}",
+  "field-addon-action-success-bg": {
+    "value": "{field-success-bg}",
     "type": "color"
   },
-  "input-outline-border": {
+  "field-outline-border": {
     "value": {
       "color": "{root.black}",
       "width": "4",
@@ -159,14 +167,14 @@
     },
     "type": "border"
   },
-  "input-outline": {
+  "field-outline": {
     "value": {
-      "border": "{input-outline-border}",
+      "border": "{field-outline-border}",
       "opacity": "{opacity-acrylic}"
     },
     "type": "composition"
   },
-  "input-text-content": {
+  "field-text-content": {
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
@@ -175,7 +183,7 @@
     },
     "type": "typography"
   },
-  "input-addon-text": {
+  "field-addon-text": {
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
@@ -184,7 +192,7 @@
     },
     "type": "typography"
   },
-  "input-text-label": {
+  "field-text-label": {
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
@@ -194,7 +202,7 @@
     },
     "type": "typography"
   },
-  "input-text-helper": {
+  "field-text-helper": {
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
@@ -203,13 +211,5 @@
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
-  },
-  "input-label": {
-    "value": "{texts.txt-default-color}",
-    "type": "color"
-  },
-  "input-required-text-color": {
-    "value": "{brand.500}",
-    "type": "color"
   }
 }

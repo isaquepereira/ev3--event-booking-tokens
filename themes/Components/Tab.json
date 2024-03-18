@@ -34,11 +34,11 @@
       "type": "color"
     },
     "hover": {
-      "value": "{borders.interactive.hover}",
+      "value": "{borders.interactive.low-emphasis-hover}",
       "type": "color"
     },
     "active": {
-      "value": "{borders.interactive.active}",
+      "value": "{borders.interactive.low-emphasis-active}",
       "type": "color"
     }
   }

@@ -1,6 +1,6 @@
 {
   "bg-hover": {
-    "value": "{surfaces.interactive.hover}",
+    "value": "{surfaces.interactive.lowEmphasis-hover}",
     "type": "color"
   },
   "bg-static": {

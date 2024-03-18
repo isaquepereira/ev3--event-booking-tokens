@@ -1,11 +1,13 @@
 {
-  "disabled-bg": {
-    "value": "{gray.200}",
-    "type": "color"
-  },
-  "disabled-content": {
-    "value": "{gray.500}",
-    "type": "color"
+  "global": {
+    "disabled-bg": {
+      "value": "{gray.200}",
+      "type": "color"
+    },
+    "disabled-content": {
+      "value": "{gray.500}",
+      "type": "color"
+    }
   },
   "loading-bg": {
     "value": "{root.black}",
@@ -14,6 +16,14 @@
   "iconstatic-content": {
     "value": "{gray.900}",
     "type": "color"
+  },
+  "loading-border": {
+    "value": {
+      "color": "{gray.600}",
+      "width": "{hairline}",
+      "style": "solid"
+    },
+    "type": "border"
   },
   "disabled-border": {
     "value": {
@@ -63,8 +73,8 @@
       },
       "type": "border"
     },
-    "static-content": {
-      "value": "{root.white}",
+    "content": {
+      "value": "{brand.100}",
       "type": "color"
     },
     "hover-bg": {
@@ -74,14 +84,6 @@
     "pressed-bg": {
       "value": "linear-gradient(180deg, {brand.650} 0%, {brand.600} 100%)",
       "type": "color"
-    },
-    "loading-border": {
-      "value": {
-        "color": "{gray.650}",
-        "width": "{hairline}",
-        "style": "solid"
-      },
-      "type": "border"
     },
     "static-shadow": {
       "value": [
@@ -143,6 +145,22 @@
     }
   },
   "secondary": {
+    "static-border": {
+      "value": {
+        "color": "{gray.200}",
+        "width": "{hairline}",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "hover-border": {
+      "value": {
+        "color": "{gray.250}",
+        "width": "{hairline}",
+        "style": "solid"
+      },
+      "type": "border"
+    },
     "pressed-border": {
       "value": {
         "color": "{gray.350}",
@@ -221,29 +239,13 @@
       "value": "linear-gradient(180deg, {gray.200} 0%, {gray.150} 100%)",
       "type": "color"
     },
-    "static-content": {
+    "content": {
       "value": "{root.black}",
       "type": "color"
     },
     "loading-content": {
       "value": "{root.white}",
       "type": "color"
-    },
-    "static-border": {
-      "value": {
-        "color": "{gray.200}",
-        "width": "{hairline}",
-        "style": "solid"
-      },
-      "type": "border"
-    },
-    "hover-border": {
-      "value": {
-        "color": "{gray.250}",
-        "width": "{hairline}",
-        "style": "solid"
-      },
-      "type": "border"
     }
   },
   "btn-br": {
@@ -252,7 +254,7 @@
   },
   "tertiary": {
     "static-bg": {
-      "value": "{surfaces.default.-lvl-0}",
+      "value": "transparent",
       "type": "color"
     },
     "hover-bg": {
