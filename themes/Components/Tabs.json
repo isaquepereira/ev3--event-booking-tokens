@@ -1,0 +1,57 @@
+{
+  "item": {
+    "border": {
+      "static": {
+        "value": "transparent",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{borders.interactive.low-emphasis-hover}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{borders.interactive.low-emphasis-active}",
+        "type": "color"
+      }
+    },
+    "content": {
+      "inactive": {
+        "value": "{texts.txt-subtle-color}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{texts.txt-default-color}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{texts.txt-default-color}",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "default": {
+        "value": "transparent",
+        "type": "color"
+      }
+    },
+    "label": {
+      "value": {
+        "fontFamily": "{ff-default}",
+        "fontWeight": "{fw-regular}",
+        "fontSize": "{pg-fs-2}",
+        "lineHeight": "{tight}",
+        "letterSpacing": "{ls-null}",
+        "paragraphSpacing": "{txt-paragraph-spacing-null}"
+      },
+      "type": "typography"
+    }
+  },
+  "tab": {
+    "border": {
+      "default": {
+        "value": "{borders.default.lvl-0}",
+        "type": "color"
+      }
+    }
+  }
+}
