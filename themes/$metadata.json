@@ -10,6 +10,7 @@
     "Components/Tab",
     "Components/Switch",
     "Components/Checkbox",
+    "Components/Segmented Control",
     "Breakpoints/@360",
     "Breakpoints/@768",
     "Breakpoints/@1280"

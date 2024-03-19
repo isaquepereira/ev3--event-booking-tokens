@@ -13,10 +13,7 @@
       "Components/Tab": "enabled",
       "Components/Switch": "enabled",
       "Components/Checkbox": "enabled",
-      "Semantic": "enabled",
-      "Breakpoints/@360": "disabled",
-      "Breakpoints/@768": "disabled",
-      "Breakpoints/@1280": "disabled"
+      "Semantic": "enabled"
     },
     "group": "Theme"
   },
@@ -28,16 +25,8 @@
       "Core": "enabled",
       "Components/Buttons": "enabled",
       "Components/Input": "enabled",
-      "Components/Pagination": "disabled",
-      "Components/Spinner": "disabled",
-      "Components/Header": "disabled",
-      "Components/Tab": "disabled",
-      "Components/Switch": "disabled",
-      "Components/Checkbox": "disabled",
       "Semantic": "enabled",
-      "Breakpoints/@360": "enabled",
-      "Breakpoints/@768": "disabled",
-      "Breakpoints/@1280": "disabled"
+      "Breakpoints/@360": "enabled"
     },
     "group": "Viewport"
   },
@@ -49,16 +38,7 @@
       "Core": "enabled",
       "Components/Buttons": "enabled",
       "Components/Input": "enabled",
-      "Components/Pagination": "disabled",
-      "Components/Spinner": "disabled",
-      "Components/Header": "disabled",
-      "Components/Tab": "disabled",
-      "Components/Switch": "disabled",
-      "Components/Checkbox": "disabled",
-      "Semantic": "disabled",
-      "Breakpoints/@360": "disabled",
-      "Breakpoints/@768": "enabled",
-      "Breakpoints/@1280": "disabled"
+      "Breakpoints/@768": "enabled"
     },
     "group": "Viewport"
   },
@@ -70,15 +50,6 @@
       "Core": "enabled",
       "Components/Buttons": "enabled",
       "Components/Input": "enabled",
-      "Components/Pagination": "disabled",
-      "Components/Spinner": "disabled",
-      "Components/Header": "disabled",
-      "Components/Tab": "disabled",
-      "Components/Switch": "disabled",
-      "Components/Checkbox": "disabled",
-      "Semantic": "disabled",
-      "Breakpoints/@360": "disabled",
-      "Breakpoints/@768": "disabled",
       "Breakpoints/@1280": "enabled"
     },
     "group": "Viewport"

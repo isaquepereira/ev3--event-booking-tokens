@@ -1,0 +1,49 @@
+{
+  "item": {
+    "bg": {
+      "inactive": {
+        "value": "transparent",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{surfaces.interactive.low-emphasis-hover}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{surfaces.interactive.low-emphasis-active}",
+        "type": "color"
+      }
+    },
+    "content": {
+      "static": {
+        "value": "{brand.550}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{brand.600}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{brand.100}",
+        "type": "color"
+      }
+    },
+    "label": {
+      "value": {
+        "fontFamily": "{ff-default}",
+        "fontWeight": "{fw-regular}",
+        "fontSize": "{pg-fs-2}",
+        "lineHeight": "{tight}",
+        "letterSpacing": "{ls-null}",
+        "paragraphSpacing": "{txt-paragraph-spacing-null}"
+      },
+      "type": "typography"
+    }
+  },
+  "control": {
+    "bg": {
+      "value": "{surfaces.interactive.low-emphasis-static}",
+      "type": "color"
+    }
+  }
+}
