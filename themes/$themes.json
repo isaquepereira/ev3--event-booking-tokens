@@ -13,8 +13,7 @@
       "Components/Tab": "enabled",
       "Components/Switch": "enabled",
       "Components/Checkbox": "enabled",
-      "Semantic": "enabled",
-      "Components/Tabs": "disabled"
+      "Semantic": "enabled"
     },
     "group": "Theme"
   },
@@ -27,8 +26,7 @@
       "Components/Buttons": "enabled",
       "Components/Input": "enabled",
       "Semantic": "enabled",
-      "Breakpoints/@360": "enabled",
-      "Components/Tabs": "disabled"
+      "Breakpoints/@360": "enabled"
     },
     "group": "Viewport"
   },
@@ -40,8 +38,7 @@
       "Core": "enabled",
       "Components/Buttons": "enabled",
       "Components/Input": "enabled",
-      "Breakpoints/@768": "enabled",
-      "Components/Tabs": "disabled"
+      "Breakpoints/@768": "enabled"
     },
     "group": "Viewport"
   },
@@ -53,8 +50,7 @@
       "Core": "enabled",
       "Components/Buttons": "enabled",
       "Components/Input": "enabled",
-      "Breakpoints/@1280": "enabled",
-      "Components/Tabs": "disabled"
+      "Breakpoints/@1280": "enabled"
     },
     "group": "Viewport"
   }

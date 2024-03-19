@@ -265,7 +265,7 @@
     },
     "interactive": {
       "hover": {
-        "value": "{brand.500}",
+        "value": "{brand.550}",
         "type": "color"
       },
       "active": {

@@ -1,10 +1,6 @@
 {
-  "bg-hover": {
-    "value": "{surfaces.interactive.lowEmphasis-hover}",
-    "type": "color"
-  },
   "bg-static": {
-    "value": "{surfaces.surface-interactive-static}",
+    "value": "{surfaces.interactive.low-emphasis-static}",
     "type": "color",
     "$extensions": {
       "studio.tokens": {
@@ -15,6 +11,36 @@
         }
       }
     }
+  },
+  "bg-hover": {
+    "value": "{surfaces.interactive.low-emphasis-hover}",
+    "type": "color",
+    "$extensions": {
+      "studio.tokens": {
+        "modify": {
+          "type": "alpha",
+          "value": "{opacity-glass}",
+          "space": "lch"
+        }
+      }
+    }
+  },
+  "bg-pressed": {
+    "value": "{surfaces.interactive.low-emphasis-pressed}",
+    "type": "color",
+    "$extensions": {
+      "studio.tokens": {
+        "modify": {
+          "type": "alpha",
+          "value": "{opacity-glass}",
+          "space": "lch"
+        }
+      }
+    }
+  },
+  "bg-active": {
+    "value": "{surfaces.interactive.low-emphasis-active}",
+    "type": "color"
   },
   "background-blur-static": {
     "value": {
@@ -53,11 +79,11 @@
     "type": "color"
   },
   "text-hover": {
-    "value": "{texts.interactive-hover}",
+    "value": "{texts.interactive.active}",
     "type": "color"
   },
   "text-active": {
-    "value": "{texts.interactive-active}",
+    "value": "{texts.interactive.active}",
     "type": "color"
   }
 }
