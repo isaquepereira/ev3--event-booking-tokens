@@ -1,7 +1,7 @@
 {
   "viewport": {
     "current": {
-      "value": "1920",
+      "value": "{viewport.large}",
       "type": "sizing"
     }
   },
@@ -28,8 +28,8 @@
       "fontWeight": "{fw-regular}",
       "fontSize": "{pg-fs-2}",
       "lineHeight": "{comfy}",
-      "paragraphSpacing": "{txt-paragraph-spacing-default}",
-      "letterSpacing": "{ls-null}"
+      "letterSpacing": "{ls-null}",
+      "paragraphSpacing": "12"
     },
     "type": "typography"
   },
@@ -96,7 +96,7 @@
   "txt-title-06": {
     "value": {
       "fontFamily": "{ff-default}",
-      "fontWeight": "{fw-bold}",
+      "fontWeight": "{fw-medium}",
       "fontSize": "{pg-fs-3}",
       "lineHeight": "{minimal}",
       "letterSpacing": "{ls-null}"
@@ -106,7 +106,7 @@
   "txt-title-05": {
     "value": {
       "fontFamily": "{ff-default}",
-      "fontWeight": "{fw-bold}",
+      "fontWeight": "{fw-medium}",
       "fontSize": "{pg-fs-4}",
       "lineHeight": "{minimal}",
       "letterSpacing": "{ls-null}"
@@ -116,7 +116,7 @@
   "txt-title-04": {
     "value": {
       "fontFamily": "{ff-default}",
-      "fontWeight": "{fw-bold}",
+      "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
       "fontSize": "{pg-fs-5}",
       "letterSpacing": "{ls-null}"
@@ -126,7 +126,7 @@
   "txt-title-03": {
     "value": {
       "fontFamily": "{ff-default}",
-      "fontWeight": "{fw-bold}",
+      "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
       "fontSize": "{pg-fs-6}",
       "letterSpacing": "{ls-null}"
@@ -136,7 +136,7 @@
   "txt-title-02": {
     "value": {
       "fontFamily": "{ff-default}",
-      "fontWeight": "{fw-bold}",
+      "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
       "fontSize": "{pg-fs-7}",
       "letterSpacing": "{ls-null}"
@@ -146,7 +146,7 @@
   "txt-title-01": {
     "value": {
       "fontFamily": "{ff-default}",
-      "fontWeight": "{fw-bold}",
+      "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
       "fontSize": "{pg-fs-8}",
       "letterSpacing": "{ls-null}"
@@ -156,7 +156,7 @@
   "txt-title-hero": {
     "value": {
       "fontFamily": "{ff-default}",
-      "fontWeight": "{fw-bold}",
+      "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
       "fontSize": "{pg-fs-9}",
       "letterSpacing": "{ls-null}"
@@ -164,83 +164,131 @@
     "type": "typography"
   },
   "fs-0": {
-    "value": "{typographic.fs-i} + (1 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (1 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "fs-1": {
-    "value": "{typographic.fs-i} + (2 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (2 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "fs-2": {
-    "value": "{typographic.fs-i} + (3 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (3 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "fs-3": {
-    "value": "{typographic.fs-i} + (4 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (4 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "fs-4": {
-    "value": "{typographic.fs-i} + (5 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (5 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "fs-5": {
-    "value": "{typographic.fs-i} + (6 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (6 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "fs-6": {
-    "value": "{typographic.fs-i} + (7 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (7 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "fs-7": {
-    "value": "{typographic.fs-i} + (8 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (8 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "fs-8": {
-    "value": "{typographic.fs-i} + (9 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (9 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "fs-9": {
-    "value": "{typographic.fs-i} + (10 - 1) * {typographic.fs-paR}",
+    "value": "round({typographic.fs-i} + (10 - 1) * {typographic.fs-paR})",
     "type": "fontSizes"
   },
   "pg-fs-0": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 0)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 0))",
     "type": "fontSizes"
   },
   "pg-fs-1": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 1)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 1))",
     "type": "fontSizes"
   },
   "pg-fs-2": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR}^ 2)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR}^ 2))",
     "type": "fontSizes"
   },
   "pg-fs-3": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 3)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 3))",
     "type": "fontSizes"
   },
   "pg-fs-4": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 4)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 4))",
     "type": "fontSizes"
   },
   "pg-fs-5": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 5)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 5))",
     "type": "fontSizes"
   },
   "pg-fs-6": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 6)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 6))",
     "type": "fontSizes"
   },
   "pg-fs-7": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 7)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 7))",
     "type": "fontSizes"
   },
   "pg-fs-8": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 8)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 8))",
     "type": "fontSizes"
   },
   "pg-fs-9": {
-    "value": "{typographic.fs-i} * ({typographic.fs-pgR} ^ 9)",
+    "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 9))",
     "type": "fontSizes"
+  },
+  "txt-caption": {
+    "value": {
+      "fontFamily": "{ff-default}",
+      "fontWeight": "{fw-regular}",
+      "fontSize": "{pg-fs-0}",
+      "lineHeight": "{comfy}",
+      "letterSpacing": "{ls-null}"
+    },
+    "type": "typography"
+  },
+  "icons": {
+    "icon-1": {
+      "value": "{pg-fs-2}",
+      "type": "sizing"
+    },
+    "icon-2": {
+      "value": "{pg-fs-3}",
+      "type": "sizing"
+    },
+    "icon-3": {
+      "value": "{pg-fs-4}",
+      "type": "sizing"
+    },
+    "icon-4": {
+      "value": "{pg-fs-5}",
+      "type": "sizing"
+    },
+    "icon-5": {
+      "value": "{pg-fs-6}",
+      "type": "sizing"
+    },
+    "icon-6": {
+      "value": "{pg-fs-7}",
+      "type": "sizing"
+    },
+    "icon-7": {
+      "value": "{pg-fs-8}",
+      "type": "sizing"
+    },
+    "icon-8": {
+      "value": "{pg-fs-9}",
+      "type": "sizing"
+    },
+    "icon-9": {
+      "value": "{icons.icon-4}*2",
+      "type": "sizing"
+    }
   }
 }

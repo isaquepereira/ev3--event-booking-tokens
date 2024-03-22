@@ -13,7 +13,8 @@
       "Components/Tab": "enabled",
       "Components/Switch": "enabled",
       "Components/Checkbox": "enabled",
-      "Semantic": "enabled"
+      "Semantic": "enabled",
+      "Breakpoints/@1280": "disabled"
     },
     "group": "Theme"
   },
@@ -26,7 +27,15 @@
       "Components/Buttons": "enabled",
       "Components/Input": "enabled",
       "Semantic": "enabled",
-      "Breakpoints/@360": "enabled"
+      "Breakpoints/@360": "enabled",
+      "Components/Pagination": "enabled",
+      "Components/Spinner": "enabled",
+      "Components/Header": "enabled",
+      "Components/Tab": "enabled",
+      "Components/Switch": "enabled",
+      "Components/Checkbox": "enabled",
+      "Components/Segmented Control": "enabled",
+      "Components/Tabs": "enabled"
     },
     "group": "Viewport"
   },
@@ -38,7 +47,7 @@
       "Core": "enabled",
       "Components/Buttons": "enabled",
       "Components/Input": "enabled",
-      "Breakpoints/@768": "enabled"
+      "Breakpoints/@1280": "disabled"
     },
     "group": "Viewport"
   },
@@ -50,7 +59,16 @@
       "Core": "enabled",
       "Components/Buttons": "enabled",
       "Components/Input": "enabled",
-      "Breakpoints/@1280": "enabled"
+      "Breakpoints/@1280": "enabled",
+      "Semantic": "enabled",
+      "Components/Pagination": "enabled",
+      "Components/Spinner": "enabled",
+      "Components/Header": "enabled",
+      "Components/Tab": "enabled",
+      "Components/Switch": "enabled",
+      "Components/Checkbox": "enabled",
+      "Components/Segmented Control": "enabled",
+      "Components/Tabs": "enabled"
     },
     "group": "Viewport"
   }
