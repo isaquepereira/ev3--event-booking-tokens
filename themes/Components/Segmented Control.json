@@ -18,14 +18,6 @@
       "static": {
         "value": "{brand.550}",
         "type": "color"
-      },
-      "hover": {
-        "value": "{brand.600}",
-        "type": "color"
-      },
-      "active": {
-        "value": "{brand.100}",
-        "type": "color"
       }
     },
     "label": {
