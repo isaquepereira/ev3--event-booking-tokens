@@ -13,8 +13,7 @@
       "Components/Tab": "enabled",
       "Components/Switch": "enabled",
       "Components/Checkbox": "enabled",
-      "Semantic": "enabled",
-      "Breakpoints/@1280": "disabled"
+      "Semantic": "enabled"
     },
     "group": "Theme"
   },
@@ -46,8 +45,7 @@
     "selectedTokenSets": {
       "Core": "enabled",
       "Components/Buttons": "enabled",
-      "Components/Input": "enabled",
-      "Breakpoints/@1280": "disabled"
+      "Components/Input": "enabled"
     },
     "group": "Viewport"
   },
