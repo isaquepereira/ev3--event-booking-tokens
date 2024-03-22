@@ -14,11 +14,17 @@
         "type": "color"
       }
     },
-    "content": {
-      "static": {
-        "value": "{brand.550}",
-        "type": "color"
-      }
+    "content-static": {
+      "value": "{brand.550}",
+      "type": "color"
+    },
+    "content-hover": {
+      "value": "{brand.600}",
+      "type": "color"
+    },
+    "content-active": {
+      "value": "{brand.100}",
+      "type": "color"
     },
     "label": {
       "value": {
