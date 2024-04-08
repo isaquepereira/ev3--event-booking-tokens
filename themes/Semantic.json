@@ -137,15 +137,15 @@
   "borders": {
     "default": {
       "lvl-0": {
-        "value": "{gray.200}",
+        "value": "{gray.150}",
         "type": "color"
       },
       "lvl-1": {
-        "value": "{gray.300}",
+        "value": "{gray.250}",
         "type": "color"
       },
       "lvl-2": {
-        "value": "{gray.400}",
+        "value": "{gray.350}",
         "type": "color"
       }
     },

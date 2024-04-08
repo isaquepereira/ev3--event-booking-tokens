@@ -15,7 +15,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
-      "fontSize": "{pg-fs-1}",
+      "fontSize": "{fs-1}",
       "lineHeight": "{comfy}",
       "paragraphSpacing": "{txt-paragraph-spacing-default}",
       "letterSpacing": "{ls-null}"
@@ -26,7 +26,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
-      "fontSize": "{pg-fs-2}",
+      "fontSize": "{fs-2}",
       "lineHeight": "{comfy}",
       "letterSpacing": "{ls-null}",
       "paragraphSpacing": "12"
@@ -37,7 +37,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
-      "fontSize": "{pg-fs-2}",
+      "fontSize": "{fs-2}",
       "lineHeight": "{minimal}",
       "letterSpacing": "{ls-null}"
     },
@@ -47,7 +47,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
-      "fontSize": "{pg-fs-3}",
+      "fontSize": "{fs-3}",
       "lineHeight": "{minimal}",
       "letterSpacing": "{ls-null}"
     },
@@ -58,7 +58,7 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
       "lineHeight": "{minimal}",
-      "fontSize": "{pg-fs-4}",
+      "fontSize": "{fs-4}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
@@ -68,7 +68,7 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
       "lineHeight": "{minimal}",
-      "fontSize": "{pg-fs-5}",
+      "fontSize": "{fs-5}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
@@ -78,7 +78,7 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
       "lineHeight": "{minimal}",
-      "fontSize": "{pg-fs-6}",
+      "fontSize": "{fs-6}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
@@ -88,7 +88,7 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
       "lineHeight": "{minimal}",
-      "fontSize": "{pg-fs-7}",
+      "fontSize": "{fs-7}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
@@ -97,7 +97,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-medium}",
-      "fontSize": "{pg-fs-3}",
+      "fontSize": "{fs-3}",
       "lineHeight": "{minimal}",
       "letterSpacing": "{ls-null}"
     },
@@ -107,7 +107,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-medium}",
-      "fontSize": "{pg-fs-4}",
+      "fontSize": "{fs-4}",
       "lineHeight": "{minimal}",
       "letterSpacing": "{ls-null}"
     },
@@ -118,7 +118,7 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
-      "fontSize": "{pg-fs-5}",
+      "fontSize": "{fs-5}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
@@ -128,7 +128,7 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
-      "fontSize": "{pg-fs-6}",
+      "fontSize": "{fs-6}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
@@ -138,7 +138,7 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
-      "fontSize": "{pg-fs-7}",
+      "fontSize": "{fs-7}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
@@ -148,7 +148,7 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
-      "fontSize": "{pg-fs-8}",
+      "fontSize": "{fs-8}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
@@ -158,88 +158,48 @@
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-medium}",
       "lineHeight": "{minimal}",
-      "fontSize": "{pg-fs-9}",
+      "fontSize": "{fs-9}",
       "letterSpacing": "{ls-null}"
     },
     "type": "typography"
   },
   "fs-0": {
-    "value": "round({typographic.fs-i} + (1 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "fs-1": {
-    "value": "round({typographic.fs-i} + (2 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "fs-2": {
-    "value": "round({typographic.fs-i} + (3 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "fs-3": {
-    "value": "round({typographic.fs-i} + (4 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "fs-4": {
-    "value": "round({typographic.fs-i} + (5 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "fs-5": {
-    "value": "round({typographic.fs-i} + (6 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "fs-6": {
-    "value": "round({typographic.fs-i} + (7 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "fs-7": {
-    "value": "round({typographic.fs-i} + (8 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "fs-8": {
-    "value": "round({typographic.fs-i} + (9 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "fs-9": {
-    "value": "round({typographic.fs-i} + (10 - 1) * {typographic.fs-paR})",
-    "type": "fontSizes"
-  },
-  "pg-fs-0": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 0))",
     "type": "fontSizes"
   },
-  "pg-fs-1": {
+  "fs-1": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 1))",
     "type": "fontSizes"
   },
-  "pg-fs-2": {
+  "fs-2": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR}^ 2))",
     "type": "fontSizes"
   },
-  "pg-fs-3": {
+  "fs-3": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 3))",
     "type": "fontSizes"
   },
-  "pg-fs-4": {
+  "fs-4": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 4))",
     "type": "fontSizes"
   },
-  "pg-fs-5": {
+  "fs-5": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 5))",
     "type": "fontSizes"
   },
-  "pg-fs-6": {
+  "fs-6": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 6))",
     "type": "fontSizes"
   },
-  "pg-fs-7": {
+  "fs-7": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 7))",
     "type": "fontSizes"
   },
-  "pg-fs-8": {
+  "fs-8": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 8))",
     "type": "fontSizes"
   },
-  "pg-fs-9": {
+  "fs-9": {
     "value": "round({typographic.fs-i} * ({typographic.fs-pgR} ^ 9))",
     "type": "fontSizes"
   },
@@ -247,7 +207,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
-      "fontSize": "{pg-fs-0}",
+      "fontSize": "{fs-0}",
       "lineHeight": "{comfy}",
       "letterSpacing": "{ls-null}"
     },
@@ -255,35 +215,35 @@
   },
   "icons": {
     "icon-1": {
-      "value": "{pg-fs-2}",
+      "value": "{fs-2}",
       "type": "sizing"
     },
     "icon-2": {
-      "value": "{pg-fs-3}",
+      "value": "{fs-3}",
       "type": "sizing"
     },
     "icon-3": {
-      "value": "{pg-fs-4}",
+      "value": "{fs-4}",
       "type": "sizing"
     },
     "icon-4": {
-      "value": "{pg-fs-5}",
+      "value": "{fs-5}",
       "type": "sizing"
     },
     "icon-5": {
-      "value": "{pg-fs-6}",
+      "value": "{fs-6}",
       "type": "sizing"
     },
     "icon-6": {
-      "value": "{pg-fs-7}",
+      "value": "{fs-7}",
       "type": "sizing"
     },
     "icon-7": {
-      "value": "{pg-fs-8}",
+      "value": "{fs-8}",
       "type": "sizing"
     },
     "icon-8": {
-      "value": "{pg-fs-9}",
+      "value": "{fs-9}",
       "type": "sizing"
     },
     "icon-9": {
