@@ -286,7 +286,7 @@
     "value": {
       "fontFamily": "{ff-default}",
       "fontWeight": "{fw-regular}",
-      "fontSize": "{pg-fs-2}",
+      "fontSize": "{fs-2}",
       "lineHeight": "{tight}",
       "letterSpacing": "{ls-null}",
       "paragraphSpacing": "{txt-paragraph-spacing-null}"
